@@ -1,0 +1,52 @@
+body {
+
+}
+
+.image-omelette {
+    
+}
+
+.recipe-title {
+    font-style: italic;
+}
+
+.recipe-description {
+    font-style: italic;
+}
+
+.preparation-time {
+
+}
+
+.preparation-time-title {
+
+}
+
+.ingredients {
+
+}
+
+.ingredients-title {
+
+}
+
+.nutrition {
+
+}
+
+.nutrition-title {
+
+}
+
+.nutrition-table {
+
+}
+
+.attribution {
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
