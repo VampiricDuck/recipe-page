@@ -1,13 +1,32 @@
-body {
+body { 
+    background-color: hsl(30, 54%, 90%);
+}
 
+.content-wrapper {
+    background-color: hsl(0, 0%, 100%);
+    margin: 0 auto; /* I learned that margin: 0 auto automaticly centers the block baised on resolution */
+    max-width: 52%;
+    border-radius: 15px;
+}
+
+.outer-image-omelette {
+    padding-top: 4%; /* had to add the padding outside the image to prevent the rounded corners from cutting off the image */
 }
 
 .image-omelette {
-    
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    max-width: 90%; /* adusts the image baised on the containers width. */
+    height: auto;
 }
 
 .recipe-title {
-    font-style: italic;
+    font-family: "Young Serif", serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: hsl(24, 5%, 18%);
+    padding: 4%;
 }
 
 .recipe-description {
