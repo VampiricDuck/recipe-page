@@ -21,49 +21,41 @@
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox or other browser to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+![](./Recipe-Page-Screenshot.png)
 
 ### Links
 
-- Repository URL: [Add repository URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Repository URL: [Add repository URL here](https://github.com/VampiricDuck/recipe-page.git)
+- Live Site URL: [Add live site URL here](https://vampiricduck.github.io/recipe-page/)
 
 ## My process
 
 ### Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+- HTML
+- CSS
 
 **Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+Throughout this project I've encountered a number of hurdles to overcome. For HTML, I learned how to properly make a table using tr and td tags to designate what lines go in each row, and what lines are the data that go into said row. CSS I’ve had a number of troubles, but I did how to properly incorporate fonts by first linking them in the html fine then using them. Learning div structures has also been a quick reminder, while the basic concept had been acquired i was still getting stuck, and so google I did and quickly came to the conclusion that divs are like boxed, literally. The last thing I truly learned was styling a table. Having to class specific data and highlighting the bottom border of the cells. 
 
-To see how you can add code snippets, see below:
+### Continued development
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
+I want to continue to learn better ways to sort my HTML, and of course learning more css.
+
+### Useful resources
+
+- [W3schools](https://www.w3schools.com/) - This was baisicly the only online tool I've used for the entire project. its a lovley tool becaues it gives information about everything your ready and provides examples and their outputs.
+
+## Author
+
+- GitHub - [Serena Rogers](https://github.com/VampiricDuck)
+
+## Acknowledgments
+
+I'd like to Acknowledge Mr.Gardner for the consistent support and walking though my questions. Elnatan for helping me format the lists properly. And Henry and Yusuke for their help as another set of eyes on troubleshooting.
 const proudOfThisFunc = () => {
   console.log('🎉')
 }
