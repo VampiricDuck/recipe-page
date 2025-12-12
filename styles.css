@@ -24,7 +24,7 @@ body {
 
 .recipe-title {
     font-family: "Young Serif", serif;
-    font-size: 13px;
+    font-size: 18px;
     color: hsl(24, 5%, 18%);
     padding-left: 5%;
 }
@@ -36,6 +36,7 @@ body {
     color: hsl(30, 10%, 34%);
     padding-left: 5%;
     padding-right: 5%;
+    margin-top: -10px;
 }
 
 .preparation-time-title {
@@ -50,11 +51,12 @@ body {
     font-family: "Outfit", sans-serif;
     font-size: 8px;
     color: hsl(30, 10%, 34%);
-    padding-left: 3%;
+    padding-left: 6%;
 }
 
 .preparation-time-list {
-    padding-left: 3%;
+    padding-left: 6px;
+    padding-bottom: 7px;
 }
 
 ul li::marker { /* learned that this changes the color of just the bullet points in an unorder list */
@@ -62,11 +64,17 @@ ul li::marker { /* learned that this changes the color of just the bullet points
     font-size: 6px;
 }
 
+ol li::marker {
+    color: hsl(332, 51%, 32%);
+    font-weight: 700;
+    font-size: 7px;
+}
+
 .ingredients-title {
     font-family: "Young Serif", serif;
     font-size: 13px;
     color: hsl(14, 45%, 36%);
-    padding-left: 7%;
+    padding-left: 5%;
     padding-top: 16px;
 }
 
@@ -78,32 +86,80 @@ ul li::marker { /* learned that this changes the color of just the bullet points
 }
 
 .ingredients-list {
-    padding-left: 3%;
+    padding-left: 7px;
+    padding-bottom: 7px;
+}
+
+.ingredients-list-0 {
+    padding-left: 7px;
 }
 
 hr.solid {
-    border-top: 1px solid hsl(30, 54%, 90%);
+    border: 1px solid hsl(30, 54%, 90%);
     margin-left: 5%;
-    margin-right: 5%;}
-
-.intruction-titles {
-
+    margin-right: 5%;
+    margin-top: -2px;
 }
 
-.intructions {
-
+hr.solid-1 {
+    border: 1px solid hsl(30, 54%, 90%);
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 15px;
 }
 
-.nutrition {
+.instructions-title {
+    font-family: "Young Serif", serif;
+    font-size: 13px;
+    color: hsl(14, 45%, 36%);
+    padding-left: 5%;
+}
 
+.instructions {
+    font-family: "Outfit", sans-serif;
+    font-size: 7px;
+    color: hsl(30, 10%, 34%);
+    margin-left: 0%;
+}
+
+.instructions-list{
+    padding-left: 10px;
+    padding-bottom: 7px;
+    padding-right: 5%;
 }
 
 .nutrition-title {
+    font-family: "Young Serif", serif;
+    font-size: 13px;
+    color: hsl(14, 45%, 36%);
+    padding-left: 5%;
+}
 
+.nutrition {
+    font-family: "Outfit", sans-serif;
+    font-size: 7px;
+    color: hsl(30, 10%, 34%);
+    padding-left: 5%;
 }
 
 .nutrition-table {
+    border-collapse: separate;
+    border-spacing: 50%;
+    font-family: "Outfit", sans-serif;
+    font-size: 7px;
+    color: hsl(30, 10%, 34%);
+    padding-left: 5%;
+}
 
+.table-data {
+    color: hsl(332, 51%, 32%);
+    font-weight: 700;
+    font-size: 7px;
+    padding-left: 50%;
+}
+
+th, td {
+    border-bottom: 1px solid hsl(30, 54%, 90%);
 }
 
 .attribution {
